@@ -2,24 +2,12 @@
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.go_button {
-  width: 76px;
-  height: 45px;
-  border: solid 2px $color-tertiary;
-  font-family: $font-primary;
-  color: $color-tertiary;
-  background-color: $color-primary;
-  margin-bottom: 45px;
-  border-radius: 22px;
+  line-height: 30px;
 
   @media all and (min-width: 768px) {
-    width: 91px;
-  }
-
-  @media all and (min-width: 1200px) {
-    width: 160px;
+    width: 100%;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 }
 
@@ -28,6 +16,8 @@
   font-size: 14px;
   font-family: $font-primary;
   color: $color-subtitle;
+  width: 90px;
+  height: 30px;
 
   @media all and (min-width: 1200px) {
     font-size: 16px;
@@ -37,6 +27,8 @@
   text-transform: capitalize;
   font-size: 24px;
   font-family: $font-secondary;
+  margin: 0;
+  width: 85%;
 
   @media all and (min-width: 768px) {
     font-size: 26px;
@@ -51,9 +43,35 @@
   font-size: 18px;
   font-family: $font-primary;
   color: $color-paragraph;
+  width: 89%;
 
   @media all and (min-width: 768px) {
     font-size: 20px;
+    width: 100%;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin: auto;
+  }
+}
+
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px $color-tertiary;
+  font-family: $font-primary;
+  color: $color-tertiary;
+  background-color: $color-primary;
+  margin-bottom: 45px;
+  border-radius: 22px;
+  font-size: 20px;
+
+  @media all and (min-width: 768px) {
+    width: 91px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 160px;
   }
 }
 
@@ -97,6 +115,18 @@
 
   @media all and (min-width: 768px) {
     font-size: 20px;
+  }
+}
+
+.first_article,
+.second_article,
+.third_article {
+  width: 180px;
+  margin: auto;
+  line-height: 30px;
+
+  @media all and (min-width: 768px) {
+    width: 100%;
   }
 }
 
