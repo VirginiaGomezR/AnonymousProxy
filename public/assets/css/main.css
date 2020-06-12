@@ -312,19 +312,14 @@ template {
   padding: 0px;
   color: inherit; }
 
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
-
 .header {
   position: fixed; }
 
 .header_menu {
   margin-left: 0px; }
+
+.section_blue {
+  background-color: #eff9ff; }
 
 ul {
   padding: 0px; }
