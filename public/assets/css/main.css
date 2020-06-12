@@ -418,13 +418,23 @@ template {
 ul {
   padding: 0px; }
 
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: black; }
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #304268;
+  font-family: "Roboto", sans-serif; }
+
+.copyright {
+  text-align: center; }
+
+.menu,
+.socialmedia_menu {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center; }
 
 .main__list {
   padding-left: 2rem; }
