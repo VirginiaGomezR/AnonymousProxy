@@ -427,6 +427,23 @@ ul {
   background-color: #304268;
   font-family: "Roboto", sans-serif; }
 
+.arrow_circle_footer {
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  transform: translate(-50%, 50%); }
+
+.arrow_circle_footer img {
+  width: 20px;
+  height: 12px;
+  position: relative;
+  top: 15px;
+  left: 10px; }
+
 .copyright {
   text-align: center; }
 
