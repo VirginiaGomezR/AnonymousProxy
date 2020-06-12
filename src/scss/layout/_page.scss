@@ -13,6 +13,14 @@
   background-color: $color-primary;
   margin-bottom: 45px;
   border-radius: 22px;
+
+  @media all and (min-width: 768px) {
+    width: 91px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 160px;
+  }
 }
 
 .section_subtitle {
@@ -20,17 +28,33 @@
   font-size: 14px;
   font-family: $font-primary;
   color: $color-subtitle;
+
+  @media all and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 .section_white h2 {
   text-transform: capitalize;
   font-size: 24px;
   font-family: $font-secondary;
+
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
+
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 
 .section_white p {
   font-size: 18px;
   font-family: $font-primary;
   color: $color-paragraph;
+
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .section_blue {
@@ -48,16 +72,32 @@
   font-size: 24px;
   font-family: $font-secondary;
   text-transform: capitalize;
+
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
+
+  @media all and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
 
 .section_blue h3 {
   font-size: 18px;
   font-family: $font-secondary;
+
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .section_blue p {
   font-size: 18px;
   font-family: $font-primary;
+
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .reasons_button {
@@ -71,4 +111,12 @@
   margin-bottom: 60px;
   margin-top: 60px;
   border: none;
+
+  @media all and (min-width: 768px) {
+    width: 124px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 255px;
+  }
 }
