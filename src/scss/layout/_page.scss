@@ -11,6 +11,7 @@
   color: $color-tertiary;
   background-color: $color-primary;
   margin-bottom: 45px;
+  border-radius: 22px;
 }
 
 .section_subtitle {
@@ -53,4 +54,13 @@
 .section_blue p {
   font-size: 18px;
   font-family: $font-primary;
+}
+
+.reasons_button {
+  background-color: $color-tertiary;
+  color: $color-primary;
+  width: 184px;
+  height: 45px;
+  font-family: $font-primary;
+  border-radius: 22px;
 }

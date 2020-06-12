@@ -377,7 +377,8 @@ template {
   border: solid 2px #f26002;
   color: #f26002;
   background-color: #ffffff;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  border-radius: 22px; }
 
 .section_subtitle {
   text-transform: capitalize;
@@ -414,6 +415,14 @@ template {
 .section_blue p {
   font-size: 18px;
   font-family: "Roboto", sans-serif; }
+
+.reasons_button {
+  background-color: #f26002;
+  color: #ffffff;
+  width: 184px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 22px; }
 
 ul {
   padding: 0px; }
