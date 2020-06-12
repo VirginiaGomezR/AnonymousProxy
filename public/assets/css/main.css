@@ -313,13 +313,107 @@ template {
   color: inherit; }
 
 .header {
-  position: fixed; }
+  position: fixed;
+  left: 0px;
+  top: 0px; }
 
 .header_menu {
-  margin-left: 0px; }
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc; }
+
+.header_menu img {
+  margin: 15px 14px; }
+
+.hero {
+  background: url("../../assets/images/cover.jpg") center center no-repeat;
+  width: 100%;
+  height: 100vh;
+  border: red 2px solid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.hero h1 span {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  display: block;
+  text-align: center; }
+
+.hero h2 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
+
+.arrow_circle {
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 53px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: blue 2px solid; }
+
+.arrow_circle img {
+  width: 20px;
+  height: 12px;
+  position: relative;
+  top: 15px;
+  left: 10px; }
+
+.section_white {
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px #f26002;
+  color: #f26002;
+  background-color: #ffffff;
+  margin-bottom: 45px; }
+
+.section_subtitle {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #8ccbea; }
+
+.section_white h2 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif; }
+
+.section_white p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #4a4a4a; }
 
 .section_blue {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+  text-align: center;
   background-color: #eff9ff; }
+
+.section_blue h2 {
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  text-transform: capitalize; }
+
+.section_blue h3 {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif; }
+
+.section_blue p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif; }
 
 ul {
   padding: 0px; }

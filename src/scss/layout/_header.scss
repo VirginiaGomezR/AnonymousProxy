@@ -1,6 +1,14 @@
 .header {
   position: fixed;
+  left: 0px;
+  top: 0px;
 }
 .header_menu {
-  margin-left: 0px;
+  width: 44px;
+  height: 44px;
+  background-color: $color-menu;
+}
+
+.header_menu img {
+  margin: 15px 14px;
 }
