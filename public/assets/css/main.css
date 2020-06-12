@@ -380,22 +380,40 @@ template {
   background-color: #ffffff;
   margin-bottom: 45px;
   border-radius: 22px; }
+  @media all and (min-width: 768px) {
+    .go_button {
+      width: 91px; } }
+  @media all and (min-width: 1200px) {
+    .go_button {
+      width: 160px; } }
 
 .section_subtitle {
   text-transform: capitalize;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #8ccbea; }
+  @media all and (min-width: 1200px) {
+    .section_subtitle {
+      font-size: 16px; } }
 
 .section_white h2 {
   text-transform: capitalize;
   font-size: 24px;
   font-family: "Roboto Slab", serif; }
+  @media all and (min-width: 768px) {
+    .section_white h2 {
+      font-size: 26px; } }
+  @media all and (min-width: 1200px) {
+    .section_white h2 {
+      font-size: 32px; } }
 
 .section_white p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: #4a4a4a; }
+  @media all and (min-width: 768px) {
+    .section_white p {
+      font-size: 20px; } }
 
 .section_blue {
   display: grid;
@@ -411,14 +429,26 @@ template {
   font-size: 24px;
   font-family: "Roboto Slab", serif;
   text-transform: capitalize; }
+  @media all and (min-width: 768px) {
+    .section_blue h2 {
+      font-size: 26px; } }
+  @media all and (min-width: 1200px) {
+    .section_blue h2 {
+      font-size: 32px; } }
 
 .section_blue h3 {
   font-size: 18px;
   font-family: "Roboto Slab", serif; }
+  @media all and (min-width: 768px) {
+    .section_blue h3 {
+      font-size: 24px; } }
 
 .section_blue p {
   font-size: 18px;
   font-family: "Roboto", sans-serif; }
+  @media all and (min-width: 768px) {
+    .section_blue p {
+      font-size: 20px; } }
 
 .reasons_button {
   background-color: #f26002;
@@ -431,6 +461,12 @@ template {
   margin-bottom: 60px;
   margin-top: 60px;
   border: none; }
+  @media all and (min-width: 768px) {
+    .reasons_button {
+      width: 124px; } }
+  @media all and (min-width: 1200px) {
+    .reasons_button {
+      width: 255px; } }
 
 ul {
   padding: 0px; }
