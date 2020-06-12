@@ -2,11 +2,23 @@ ul {
   padding: 0px;
 }
 
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: $color-primary;
+  background-color: $color-footer;
+  font-family: $font-primary;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.menu,
+.socialmedia_menu {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
 }

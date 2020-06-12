@@ -1,1 +1,74 @@
+.section_white {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px $color-tertiary;
+  font-family: $font-primary;
+  color: $color-tertiary;
+  background-color: $color-primary;
+  margin-bottom: 45px;
+  border-radius: 22px;
+}
+
+.section_subtitle {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: $font-primary;
+  color: $color-subtitle;
+}
+.section_white h2 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: $font-secondary;
+}
+
+.section_white p {
+  font-size: 18px;
+  font-family: $font-primary;
+  color: $color-paragraph;
+}
+
+.section_blue {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+  text-align: center;
+  background-color: $color-background;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section_blue h2 {
+  font-size: 24px;
+  font-family: $font-secondary;
+  text-transform: capitalize;
+}
+
+.section_blue h3 {
+  font-size: 18px;
+  font-family: $font-secondary;
+}
+
+.section_blue p {
+  font-size: 18px;
+  font-family: $font-primary;
+}
+
+.reasons_button {
+  background-color: $color-tertiary;
+  color: $color-primary;
+  width: 184px;
+  height: 45px;
+  font-family: $font-primary;
+  border-radius: 22px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border: none;
+}
