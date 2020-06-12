@@ -443,7 +443,8 @@ ul {
   color: #ffffff;
   background-color: #304268;
   font-family: "Roboto", sans-serif;
-  line-height: 30px; }
+  line-height: 30px;
+  position: relative; }
   @media all and (min-width: 768px) {
     .footer {
       flex-direction: row-reverse;
@@ -456,7 +457,7 @@ ul {
   width: 45px;
   border-radius: 50%;
   position: absolute;
-  transform: translate(0%, -400%); }
+  top: -25px; }
 
 .circle_footer img {
   width: 20px;
