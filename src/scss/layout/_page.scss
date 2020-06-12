@@ -75,21 +75,22 @@
   }
 }
 
-.section_blue {
+.container_blue {
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   text-align: center;
   background-color: $color-background;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+  // padding-top: 30px;
+  // padding-left: 15px;
+  // padding-right: 15px;
 }
 
-.section_blue h2 {
+.container_blue h2 {
   font-size: 24px;
   font-family: $font-secondary;
   text-transform: capitalize;
+  grid-column: span 3;
 
   @media all and (min-width: 768px) {
     font-size: 26px;
@@ -100,7 +101,7 @@
   }
 }
 
-.section_blue h3 {
+.container_blue h3 {
   font-size: 18px;
   font-family: $font-secondary;
 
@@ -109,7 +110,7 @@
   }
 }
 
-.section_blue p {
+.container_blue p {
   font-size: 18px;
   font-family: $font-primary;
 
@@ -124,11 +125,31 @@
   width: 180px;
   margin: auto;
   line-height: 30px;
+  grid-column: span 3;
 
   @media all and (min-width: 768px) {
     width: 100%;
   }
 }
+
+// .first_article {
+
+//   @media all and (min-width: 768px) {
+//     grid-column: span 1;
+//   }
+// }
+
+// .second_article {
+//   @media all and (min-width: 768px) {
+//     grid-column: span 2;
+//   }
+// }
+
+// .third_article {
+//   @media all and (min-width: 768px) {
+//     grid-column: span 3;
+//   }
+// }
 
 .reasons_button {
   background-color: $color-tertiary;
