@@ -367,14 +367,15 @@ template {
   left: 10px; }
 
 .section_white {
-  margin-top: 30px;
-  margin-left: 15px;
-  margin-right: 15px; }
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .go_button {
   width: 76px;
   height: 45px;
   border: solid 2px #f26002;
+  font-family: "Roboto", sans-serif;
   color: #f26002;
   background-color: #ffffff;
   margin-bottom: 45px;
@@ -401,7 +402,10 @@ template {
   grid-template-columns: 3;
   grid-template-rows: 3;
   text-align: center;
-  background-color: #eff9ff; }
+  background-color: #eff9ff;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .section_blue h2 {
   font-size: 24px;
@@ -422,18 +426,32 @@ template {
   width: 184px;
   height: 45px;
   font-family: "Roboto", sans-serif;
-  border-radius: 22px; }
+  border-radius: 22px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  border: none; }
 
 ul {
   padding: 0px; }
 
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: black; }
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #304268;
+  font-family: "Roboto", sans-serif; }
+
+.copyright {
+  text-align: center; }
+
+.menu,
+.socialmedia_menu {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center; }
 
 .main__list {
   padding-left: 2rem; }
