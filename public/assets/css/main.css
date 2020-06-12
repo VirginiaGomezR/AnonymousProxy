@@ -442,7 +442,13 @@ ul {
   align-items: center;
   color: #ffffff;
   background-color: #304268;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  line-height: 30px; }
+  @media all and (min-width: 768px) {
+    .footer {
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      padding: 45px 39px; } }
 
 .circle_footer {
   background-color: #ffffff;
@@ -461,7 +467,8 @@ ul {
 
 .copyright {
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 14px; }
 
 .menu,
 .socialmedia_menu {
