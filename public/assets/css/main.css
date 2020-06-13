@@ -352,7 +352,8 @@ template {
 .hero h2 {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: normal; }
   @media all and (min-width: 768px) {
     .hero h2 {
       font-size: 24px; } }
