@@ -339,30 +339,28 @@ template {
   align-items: center;
   margin-bottom: 14%; }
 
-.hero h1 span {
+.hero h1 {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Roboto Slab", serif;
   font-size: 42px;
   display: block;
-  text-align: center; }
+  text-align: center;
+  line-height: 55px;
+  margin: 0; }
   @media all and (min-width: 768px) {
-    .hero h1 span {
+    .hero h1 {
       font-size: 80px; } }
   @media all and (min-width: 1200px) {
-    .hero h1 span {
+    .hero h1 {
       font-size: 100px; } }
 
 .hero h2 {
   color: #ffffff;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-<<<<<<< HEAD
-  margin-top: 10px;
-  text-align: center; }
-=======
-  font-weight: normal; }
->>>>>>> master
+  font-weight: normal;
+  margin: 15px 0 45px; }
   @media all and (min-width: 768px) {
     .hero h2 {
       font-size: 24px; } }
@@ -372,7 +370,6 @@ template {
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  margin-top: 45px;
   display: flex;
   align-items: center;
   justify-content: center; }
