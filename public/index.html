@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Prueba</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="..scss/core/_reset.scss" />
@@ -23,20 +23,21 @@
         </div>
       </header>
 
-      <div class="hero">
-        <h1>
-          <span>anonymous</span>
-          <span>proxy</span>
-        </h1>
-        <h2>In hac habitasse platea dictumst.</h2>
-        <div class="arrow_circle">
-          <a href="#" title="Ir a la segunda sección"
-            ><img
-              src="./assets/images/ico-scroll-down.svg"
-              alt="Flecha que dirige a la segunda sección"
-          /></a>
+      <section class="hero">
+        <div class="container">
+          <h1>
+            anonymous proxy
+          </h1>
+          <h2>In hac habitasse platea dictumst.</h2>
+          <div class="arrow_circle">
+            <a href="#" title="Ir a la segunda sección"
+              ><img
+                src="./assets/images/ico-scroll-down.svg"
+                alt="Flecha que dirige a la segunda sección"
+            /></a>
+          </div>
         </div>
-      </div>
+      </section>
 
       <main class="page-main">
         <section class="section_white">
@@ -78,18 +79,17 @@
 
       <footer class="footer">
         <div class="circle_footer">
-          <a href="#" title="Ir al inicio de la página"
+          <a href="#hero" title="Ir al inicio de la página"
             ><img
               src="./assets/images/ico-arrow.svg"
               alt="Flecha que dirige al inicio de la página"
           /></a>
         </div>
-
         <nav class="menu">
           <ul>
             <li>
               <a href="https://adalab.es/" title="Ir a la página de Adalab"
-                >article</a
+                >articles</a
               >
             </li>
             <li>
@@ -122,14 +122,14 @@
             </li>
             <li>
               <a href="https://adalab.es/" title="Ir a la página de Adalab"
-                >mastodo.social</a
+                >mastodon.social</a
               >
             </li>
           </ul>
         </nav>
         <small class="copyright">
           &copy;2017
-          <p>we🧡components</p>
+          <p>we <span class="heart_emoji">❤︎</span> components</p>
         </small>
       </footer>
 
