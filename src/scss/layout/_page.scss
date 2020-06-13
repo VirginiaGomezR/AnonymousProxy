@@ -2,24 +2,12 @@
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.go_button {
-  width: 76px;
-  height: 45px;
-  border: solid 2px $color-tertiary;
-  font-family: $font-primary;
-  color: $color-tertiary;
-  background-color: $color-primary;
-  margin-bottom: 45px;
-  border-radius: 22px;
+  line-height: 30px;
 
   @media all and (min-width: 768px) {
-    width: 91px;
-  }
-
-  @media all and (min-width: 1200px) {
-    width: 160px;
+    width: 100%;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 }
 
@@ -28,6 +16,8 @@
   font-size: 14px;
   font-family: $font-primary;
   color: $color-subtitle;
+  width: 90px;
+  height: 30px;
 
   @media all and (min-width: 1200px) {
     font-size: 16px;
@@ -37,6 +27,8 @@
   text-transform: capitalize;
   font-size: 24px;
   font-family: $font-secondary;
+  margin: 0;
+  width: 85%;
 
   @media all and (min-width: 768px) {
     font-size: 26px;
@@ -51,30 +43,59 @@
   font-size: 18px;
   font-family: $font-primary;
   color: $color-paragraph;
+  width: 89%;
 
   @media all and (min-width: 768px) {
     font-size: 20px;
+    width: 100%;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin: auto;
   }
 }
 
-.section_blue {
-  display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
-  text-align: center;
-  background-color: $color-background;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px $color-tertiary;
+  font-family: $font-primary;
+  color: $color-tertiary;
+  background-color: $color-primary;
+  margin-bottom: 45px;
+  border-radius: 22px;
+  font-size: 20px;
+
+  @media all and (min-width: 768px) {
+    width: 91px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 160px;
+  }
 }
 
-.section_blue h2 {
+.container_blue {
+  display: grid;
+  grid-template-rows: repeat(5, 0.5fr);
+  text-align: center;
+  background-color: $color-background;
+  padding: 0px 35px;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: none;
+  }
+}
+
+.container_blue h2 {
   font-size: 24px;
   font-family: $font-secondary;
   text-transform: capitalize;
 
   @media all and (min-width: 768px) {
     font-size: 26px;
+    grid-column: span 3;
   }
 
   @media all and (min-width: 1200px) {
@@ -82,7 +103,7 @@
   }
 }
 
-.section_blue h3 {
+.container_blue h3 {
   font-size: 18px;
   font-family: $font-secondary;
 
@@ -91,12 +112,24 @@
   }
 }
 
-.section_blue p {
+.container_blue p {
   font-size: 18px;
   font-family: $font-primary;
 
   @media all and (min-width: 768px) {
     font-size: 20px;
+  }
+}
+
+.first_article,
+.second_article,
+.third_article {
+  width: 180px;
+  margin: auto;
+  line-height: 30px;
+
+  @media all and (min-width: 768px) {
+    width: 100%;
   }
 }
 
@@ -114,6 +147,7 @@
 
   @media all and (min-width: 768px) {
     width: 124px;
+    grid-column: span 3;
   }
 
   @media all and (min-width: 1200px) {

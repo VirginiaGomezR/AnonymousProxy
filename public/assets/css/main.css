@@ -377,29 +377,21 @@ template {
 .section_white {
   padding-top: 30px;
   padding-left: 15px;
-  padding-right: 15px; }
-
-.go_button {
-  width: 76px;
-  height: 45px;
-  border: solid 2px #f26002;
-  font-family: "Roboto", sans-serif;
-  color: #f26002;
-  background-color: #ffffff;
-  margin-bottom: 45px;
-  border-radius: 22px; }
+  padding-right: 15px;
+  line-height: 30px; }
   @media all and (min-width: 768px) {
-    .go_button {
-      width: 91px; } }
-  @media all and (min-width: 1200px) {
-    .go_button {
-      width: 160px; } }
+    .section_white {
+      width: 100%;
+      padding-left: 39px;
+      padding-right: 39px; } }
 
 .section_subtitle {
   text-transform: capitalize;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  color: #8ccbea; }
+  color: #8ccbea;
+  width: 90px;
+  height: 30px; }
   @media all and (min-width: 1200px) {
     .section_subtitle {
       font-size: 16px; } }
@@ -407,7 +399,9 @@ template {
 .section_white h2 {
   text-transform: capitalize;
   font-size: 24px;
-  font-family: "Roboto Slab", serif; }
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  width: 85%; }
   @media all and (min-width: 768px) {
     .section_white h2 {
       font-size: 26px; } }
@@ -418,45 +412,81 @@ template {
 .section_white p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  width: 89%; }
   @media all and (min-width: 768px) {
     .section_white p {
-      font-size: 20px; } }
+      font-size: 20px;
+      width: 100%; } }
+  @media all and (min-width: 1200px) {
+    .section_white p {
+      margin: auto; } }
 
-.section_blue {
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px #f26002;
+  font-family: "Roboto", sans-serif;
+  color: #f26002;
+  background-color: #ffffff;
+  margin-bottom: 45px;
+  border-radius: 22px;
+  font-size: 20px; }
+  @media all and (min-width: 768px) {
+    .go_button {
+      width: 91px; } }
+  @media all and (min-width: 1200px) {
+    .go_button {
+      width: 160px; } }
+
+.container_blue {
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
+  grid-template-rows: repeat(5, 0.5fr);
   text-align: center;
   background-color: #eff9ff;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding: 0px 35px; }
+  @media all and (min-width: 768px) {
+    .container_blue {
+      grid-template-columns: repeat(3, 0.5fr);
+      grid-template-rows: none; } }
 
-.section_blue h2 {
+.container_blue h2 {
   font-size: 24px;
   font-family: "Roboto Slab", serif;
   text-transform: capitalize; }
   @media all and (min-width: 768px) {
-    .section_blue h2 {
-      font-size: 26px; } }
+    .container_blue h2 {
+      font-size: 26px;
+      grid-column: span 3; } }
   @media all and (min-width: 1200px) {
-    .section_blue h2 {
+    .container_blue h2 {
       font-size: 32px; } }
 
-.section_blue h3 {
+.container_blue h3 {
   font-size: 18px;
   font-family: "Roboto Slab", serif; }
   @media all and (min-width: 768px) {
-    .section_blue h3 {
+    .container_blue h3 {
       font-size: 24px; } }
 
-.section_blue p {
+.container_blue p {
   font-size: 18px;
   font-family: "Roboto", sans-serif; }
   @media all and (min-width: 768px) {
-    .section_blue p {
+    .container_blue p {
       font-size: 20px; } }
+
+.first_article,
+.second_article,
+.third_article {
+  width: 180px;
+  margin: auto;
+  line-height: 30px; }
+  @media all and (min-width: 768px) {
+    .first_article,
+    .second_article,
+    .third_article {
+      width: 100%; } }
 
 .reasons_button {
   background-color: #f26002;
@@ -471,7 +501,8 @@ template {
   border: none; }
   @media all and (min-width: 768px) {
     .reasons_button {
-      width: 124px; } }
+      width: 124px;
+      grid-column: span 3; } }
   @media all and (min-width: 1200px) {
     .reasons_button {
       width: 255px; } }
