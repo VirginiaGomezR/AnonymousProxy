@@ -549,7 +549,7 @@ ul {
         align-self: flex-end; } }
   @media all and (min-width: 1200px) {
     .footer {
-      padding: 0px 370px; } }
+      margin: auto; } }
 
 .menu,
 .socialmedia_menu {
