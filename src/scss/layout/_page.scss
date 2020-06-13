@@ -77,23 +77,25 @@
 
 .container_blue {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 0.5fr);
   text-align: center;
   background-color: $color-background;
-  // padding-top: 30px;
-  // padding-left: 15px;
-  // padding-right: 15px;
+  padding: 0px 35px;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: none;
+  }
 }
 
 .container_blue h2 {
   font-size: 24px;
   font-family: $font-secondary;
   text-transform: capitalize;
-  grid-column: span 3;
 
   @media all and (min-width: 768px) {
     font-size: 26px;
+    grid-column: span 3;
   }
 
   @media all and (min-width: 1200px) {
@@ -125,31 +127,11 @@
   width: 180px;
   margin: auto;
   line-height: 30px;
-  grid-column: span 3;
 
   @media all and (min-width: 768px) {
     width: 100%;
   }
 }
-
-// .first_article {
-
-//   @media all and (min-width: 768px) {
-//     grid-column: span 1;
-//   }
-// }
-
-// .second_article {
-//   @media all and (min-width: 768px) {
-//     grid-column: span 2;
-//   }
-// }
-
-// .third_article {
-//   @media all and (min-width: 768px) {
-//     grid-column: span 3;
-//   }
-// }
 
 .reasons_button {
   background-color: $color-tertiary;
@@ -165,6 +147,7 @@
 
   @media all and (min-width: 768px) {
     width: 124px;
+    grid-column: span 3;
   }
 
   @media all and (min-width: 1200px) {
