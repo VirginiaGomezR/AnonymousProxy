@@ -63,6 +63,10 @@ ul {
       text-align: left;
     }
 
+    .menu {
+      order: 2;
+    }
+
     .socialmedia_menu {
       order: 3;
 
@@ -70,35 +74,10 @@ ul {
         min-width: 160px;
       }
     }
-
-    .menu {
-      order: 2;
-    }
   }
 
   @media all and (min-width: 1200px) {
     justify-content: center;
-  }
-}
-
-.menu,
-.socialmedia_menu {
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.menu {
-  margin-top: 60px;
-  margin-bottom: 30px;
-
-  @media all and (min-width: 768px) {
-    margin: 0;
-  }
-
-  @media all and (min-width: 1200px) {
-    margin: 0 30px;
-    min-width: 160px;
   }
 }
 
@@ -122,6 +101,27 @@ ul {
   }
 
   @media all and (min-width: 1200px) {
+    min-width: 160px;
+  }
+}
+
+.menu,
+.socialmedia_menu {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  @media all and (min-width: 768px) {
+    margin: 0;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin: 0 30px;
     min-width: 160px;
   }
 }
