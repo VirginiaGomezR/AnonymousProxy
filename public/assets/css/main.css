@@ -316,14 +316,12 @@ template {
   position: fixed;
   left: 0px;
   top: 0px; }
-
-.header_menu {
-  width: 44px;
-  height: 44px;
-  background-color: #0271bc; }
-
-.header_menu img {
-  margin: 15px 14px; }
+  .header_menu {
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc; }
+    .header_menu img {
+      margin: 15px 14px; }
 
 ul {
   padding: 0px; }
