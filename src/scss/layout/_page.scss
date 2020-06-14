@@ -7,6 +7,10 @@
     padding-left: 39px;
     padding-right: 39px;
   }
+  @media all and (min-width: 1200px) {
+    width: 56.1%;
+    margin: auto;
+  }
 }
 
 .section_subtitle {
@@ -41,11 +45,15 @@
   font-size: 18px;
   font-family: $font-primary;
   color: $color-paragraph;
-  width: 89%;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin: 0;
 
   @media all and (min-width: 768px) {
     font-size: 20px;
     width: 100%;
+    padding-top: 30px;
   }
 
   @media all and (min-width: 1200px) {
@@ -64,6 +72,13 @@
   border-radius: 22px;
   font-size: 20px;
 
+  &:hover {
+    background-color: $color-tertiary;
+    border: 4px solid $color-subtitle;
+    transition: color ease 3s, border-color ease 3s;
+    color: $color-primary;
+  }
+
   @media all and (min-width: 768px) {
     width: 91px;
   }
@@ -79,11 +94,11 @@
   text-align: center;
   background-color: $color-background;
   grid-gap: 45px;
+  padding: 30px 15px 60px;
 
   @media all and (min-width: 768px) {
     grid-template-columns: repeat(3, 0.5fr);
     grid-template-rows: none;
-    padding: 30px 15px 60px;
   }
 }
 
@@ -110,6 +125,7 @@
 
   @media all and (min-width: 768px) {
     font-size: 24px;
+    padding-bottom: 14px;
   }
 }
 
@@ -147,6 +163,13 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 45px;
+
+  &:hover {
+    background-color: $color-primary;
+    border: 2px solid $color-tertiary;
+    transition: color ease 3s, border-color ease 3s;
+    color: $color-tertiary;
+  }
 
   @media all and (min-width: 768px) {
     width: 210px;
