@@ -2,12 +2,12 @@
   padding: 30px 15px 0;
   line-height: 30px;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     width: 100%;
     padding-left: 39px;
     padding-right: 39px;
   }
-  @media all and (min-width: 1200px) {
+  @include desktop {
     width: 56.1%;
     margin: auto;
   }
@@ -21,7 +21,7 @@
   width: 90px;
   height: 30px;
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     font-size: 16px;
   }
 }
@@ -32,11 +32,11 @@
   margin: 0;
   width: 85%;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     font-size: 26px;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     font-size: 32px;
   }
 }
@@ -50,13 +50,13 @@
   padding-bottom: 30px;
   margin: 0;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     font-size: 20px;
     width: 100%;
     padding-top: 30px;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     margin: auto;
   }
 }
@@ -79,11 +79,11 @@
     color: $color-primary;
   }
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     width: 91px;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     width: 160px;
   }
 }
@@ -96,7 +96,7 @@
   grid-gap: 45px;
   padding: 30px 15px 60px;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     grid-template-columns: repeat(3, 0.5fr);
     grid-template-rows: none;
   }
@@ -108,12 +108,12 @@
   text-transform: capitalize;
   margin: 0;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     font-size: 26px;
     grid-column: span 3;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     font-size: 32px;
   }
 }
@@ -123,7 +123,7 @@
   font-family: $font-secondary;
   margin: 0;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     font-size: 24px;
     padding-bottom: 14px;
   }
@@ -134,7 +134,7 @@
   font-family: $font-primary;
   margin: 0;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     font-size: 20px;
   }
 }
@@ -146,7 +146,7 @@
   margin: auto;
   line-height: 30px;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     width: 100%;
   }
 }
@@ -171,12 +171,12 @@
     color: $color-tertiary;
   }
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     width: 210px;
     grid-column: span 3;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     width: 255px;
   }
 }

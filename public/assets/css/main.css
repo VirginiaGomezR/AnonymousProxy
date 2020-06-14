@@ -343,7 +343,7 @@ template {
       .hero h1 {
         font-size: 80px;
         line-height: 106px; } }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 1200px) {
       .hero h1 {
         font-size: 100px;
         line-height: 132px;
@@ -358,7 +358,7 @@ template {
       .hero h2 {
         font-size: 24px;
         margin: 20px 0 30px; } }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 1200px) {
       .hero h2 {
         margin-top: 0; } }
 
@@ -370,7 +370,7 @@ template {
   @media all and (min-width: 768px) {
     .container {
       margin-bottom: 45px; } }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .container {
       margin-bottom: 13px; } }
 
@@ -608,10 +608,10 @@ ul {
         order: 2; }
       .footer .socialmedia_menu {
         order: 3; } }
-    @media all and (min-width: 768px) and (min-width: 768px) {
+    @media all and (min-width: 768px) and (min-width: 1200px) {
       .footer .socialmedia_menu {
         min-width: 160px; } }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .footer {
       justify-content: center; } }
 
@@ -628,7 +628,7 @@ ul {
     .copyright {
       margin: 0px;
       order: 1; } }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .copyright {
       min-width: 160px; } }
 
@@ -644,7 +644,7 @@ ul {
   @media all and (min-width: 768px) {
     .menu {
       margin: 0; } }
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     .menu {
       margin: 0 30px;
       min-width: 160px; } }
