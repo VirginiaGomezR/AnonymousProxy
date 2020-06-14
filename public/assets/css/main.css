@@ -330,6 +330,37 @@ template {
   display: flex;
   justify-content: center;
   align-items: flex-end; }
+  .hero h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+    font-size: 42px;
+    display: block;
+    text-align: center;
+    line-height: 55px;
+    margin: 0; }
+    @media all and (min-width: 768px) {
+      .hero h1 {
+        font-size: 80px;
+        line-height: 106px; } }
+    @media all and (min-width: 768px) {
+      .hero h1 {
+        font-size: 100px;
+        line-height: 132px;
+        max-width: 730px; } }
+  .hero h2 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    margin: 15px 0 45px; }
+    @media all and (min-width: 768px) {
+      .hero h2 {
+        font-size: 24px;
+        margin: 20px 0 30px; } }
+    @media all and (min-width: 768px) {
+      .hero h2 {
+        margin-top: 0; } }
 
 .container {
   display: flex;
@@ -339,42 +370,9 @@ template {
   @media all and (min-width: 768px) {
     .container {
       margin-bottom: 45px; } }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 768px) {
     .container {
       margin-bottom: 13px; } }
-
-.hero h1 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: "Roboto Slab", serif;
-  font-size: 42px;
-  display: block;
-  text-align: center;
-  line-height: 55px;
-  margin: 0; }
-  @media all and (min-width: 768px) {
-    .hero h1 {
-      font-size: 80px;
-      line-height: 106px; } }
-  @media all and (min-width: 1200px) {
-    .hero h1 {
-      font-size: 100px;
-      line-height: 132px;
-      max-width: 730px; } }
-
-.hero h2 {
-  color: #ffffff;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  margin: 15px 0 45px; }
-  @media all and (min-width: 768px) {
-    .hero h2 {
-      font-size: 24px;
-      margin: 20px 0 30px; } }
-  @media all and (min-width: 1200px) {
-    .hero h2 {
-      margin-top: 0; } }
 
 .arrow_circle {
   background-color: #ffffff;
@@ -384,11 +382,10 @@ template {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.arrow_circle img {
-  width: 20px;
-  height: 12px;
-  margin-top: 10px; }
+  .arrow_circle img {
+    width: 20px;
+    height: 12px;
+    margin-top: 10px; }
 
 .section_white {
   padding: 30px 15px 0;
