@@ -12,11 +12,24 @@ ul {
   position: absolute;
   top: 0;
   left: 50%;
+  animation-name: arrowfooter;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 
   a {
     position: relative;
     top: 50%;
     left: 50%;
+  }
+
+  @keyframes arrowfooter {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: -10px;
+    }
   }
 }
 
