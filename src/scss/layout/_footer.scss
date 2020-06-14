@@ -1,12 +1,127 @@
 ul {
   padding: 0px;
+  margin: 0;
 }
 
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.circle_footer {
+  background-color: $color-primary;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  animation-name: arrowfooter;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+  }
+
+  @keyframes arrowfooter {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: -10px;
+    }
+  }
+}
+
+.circle_footer img {
+  width: 20px;
+  height: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: $color-primary;
+  background-color: $color-footer;
+  font-family: $font-primary;
+  line-height: 30px;
+  position: relative;
+  padding: 0px 15px;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 45px 0;
+
+    .copyright,
+    .socialmedia_menu,
+    .menu li {
+      text-align: left;
+    }
+
+    .menu {
+      order: 2;
+    }
+
+    .socialmedia_menu {
+      order: 3;
+
+      @include desktop {
+        min-width: 160px;
+      }
+    }
+  }
+
+  @include desktop {
+    justify-content: center;
+  }
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+
+  .heart_emoji {
+    color: $color-tertiary;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  @include tablet {
+    margin: 0px;
+    order: 1;
+  }
+
+  @include desktop {
+    min-width: 160px;
+  }
+}
+
+.menu,
+.socialmedia_menu {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  @include tablet {
+    margin: 0;
+  }
+
+  @include desktop {
+    margin: 0 30px;
+    min-width: 160px;
+  }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Prueba</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="..scss/core/_reset.scss" />
@@ -23,23 +23,107 @@
         </div>
       </header>
 
-      
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
+      <section class="hero" id="hero">
+        <div class="container">
+          <h1>
+            anonymous proxy
+          </h1>
+          <h2>In hac habitasse platea dictumst.</h2>
+          <div class="arrow_circle">
+            <a href="#section_blue" title="Ir a la segunda sección"
+              ><img
+                src="./assets/images/ico-scroll-down.svg"
+                alt="Flecha que dirige a la segunda sección"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <main class="page-main">
+        <section class="section_white">
+          <div class="container_white">
+            <span class="section_subtitle">insomnia tips</span>
+            <h2>looking through a window</h2>
+            <p>
+              Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+              luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+            </p>
+            <button class="go_button">Go</button>
+          </div>
+        </section>
+        <section class="section_blue" id="section_blue">
+          <div class="container_blue">
+            <h2>3 reasons to purchase</h2>
+            <articles class="first_article">
+              <h3>Ut sed metus</h3>
+              <p>Lorem ipsun dolor sit amet, consecteur</p>
+            </articles>
+            <articles class="second_article">
+              <h3>Curabitur ac erat</h3>
+              <p>Mauris mattis urna quis lorem molestie</p>
+            </articles>
+            <articles class="third_article">
+              <h3>Morbi dictum</h3>
+              <p>Aliquam in dolor et dolor tincidunt.</p>
+            </articles>
+            <button class="reasons_button">More reasons</button>
+          </div>
+        </section>
       </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
+      <footer class="footer">
+        <div class="circle_footer">
+          <a href="#hero" title="Ir al inicio de la página"
+            ><img
+              src="./assets/images/ico-arrow.svg"
+              alt="Flecha que dirige al inicio de la página"
+          /></a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab"
+                >articles</a
+              >
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab">books</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab">events</a>
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab"
+                >reasons</a
+              >
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab">tips</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="socialmedia_menu">
+          <ul>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab"
+                >twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab"
+                >instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://adalab.es/" title="Ir a la página de Adalab"
+                >mastodon.social</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <small class="copyright">
+          &copy;2017
+          <p>we <span class="heart_emoji">❤︎</span> components</p>
         </small>
       </footer>
 

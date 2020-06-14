@@ -1,0 +1,78 @@
+.hero {
+  background: url("../../assets/images/cover.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 53px;
+
+  @media all and (min-width: 768px) {
+    margin-bottom: 45px;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin-bottom: 13px;
+  }
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  color: $color-primary;
+  font-family: $font-secondary;
+  font-size: 42px;
+  display: block;
+  text-align: center;
+  line-height: 55px;
+  margin: 0;
+
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+  }
+
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132px;
+    max-width: 730px;
+  }
+}
+
+.hero h2 {
+  color: $color-primary;
+  font-size: 16px;
+  font-family: $font-primary;
+  font-weight: normal;
+  margin: 15px 0 45px;
+
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    margin: 20px 0 30px;
+  }
+
+  @media all and (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
+.arrow_circle {
+  background-color: $color-primary;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow_circle img {
+  width: 20px;
+  height: 12px;
+  margin-top: 10px;
+}
