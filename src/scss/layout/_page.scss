@@ -129,7 +129,7 @@
 .second_article,
 .third_article {
   width: 180px;
-  margin: auto;
+  margin: 0 auto;
   line-height: 30px;
 
   @include tablet {
