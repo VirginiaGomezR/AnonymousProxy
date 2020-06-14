@@ -51,7 +51,7 @@ ul {
   position: relative;
   padding: 0px 15px;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
@@ -70,13 +70,13 @@ ul {
     .socialmedia_menu {
       order: 3;
 
-      @media all and (min-width: 1200px) {
+      @include desktop {
         min-width: 160px;
       }
     }
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     justify-content: center;
   }
 }
@@ -95,12 +95,12 @@ ul {
     margin: 0;
   }
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     margin: 0px;
     order: 1;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     min-width: 160px;
   }
 }
@@ -116,11 +116,11 @@ ul {
   margin-top: 60px;
   margin-bottom: 30px;
 
-  @media all and (min-width: 768px) {
+  @include tablet {
     margin: 0;
   }
 
-  @media all and (min-width: 1200px) {
+  @include desktop {
     margin: 0 30px;
     min-width: 160px;
   }

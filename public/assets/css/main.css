@@ -613,10 +613,10 @@ ul {
         order: 2; }
       .footer .socialmedia_menu {
         order: 3; } }
-    @media all and (min-width: 768px) and (min-width: 1200px) {
+    @media all and (min-width: 768px) and (min-width: 768px) {
       .footer .socialmedia_menu {
         min-width: 160px; } }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 768px) {
     .footer {
       justify-content: center; } }
 
@@ -633,7 +633,7 @@ ul {
     .copyright {
       margin: 0px;
       order: 1; } }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 768px) {
     .copyright {
       min-width: 160px; } }
 
@@ -649,7 +649,7 @@ ul {
   @media all and (min-width: 768px) {
     .menu {
       margin: 0; } }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 768px) {
     .menu {
       margin: 0 30px;
       min-width: 160px; } }
