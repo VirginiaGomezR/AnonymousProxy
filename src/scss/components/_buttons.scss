@@ -1,0 +1,56 @@
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px $color-tertiary;
+  font-family: $font-primary;
+  color: $color-tertiary;
+  background-color: $color-primary;
+  border-radius: 22px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $color-tertiary;
+    border: 4px solid $color-subtitle;
+    transition: color ease 3s, border-color ease 3s;
+    color: $color-primary;
+  }
+
+  @include tablet {
+    width: 91px;
+  }
+
+  @include desktop {
+    width: 160px;
+  }
+}
+
+.reasons_button {
+  background-color: $color-tertiary;
+  color: $color-primary;
+  width: 184px;
+  height: 45px;
+  font-family: $font-primary;
+  border-radius: 22px;
+  margin: auto;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 45px;
+
+  &:hover {
+    background-color: $color-primary;
+    border: 2px solid $color-tertiary;
+    transition: color ease 3s, border-color ease 3s;
+    color: $color-tertiary;
+  }
+
+  @include tablet {
+    width: 210px;
+    grid-column: span 3;
+    margin-top: 15px;
+  }
+
+  @include desktop {
+    width: 255px;
+  }
+}

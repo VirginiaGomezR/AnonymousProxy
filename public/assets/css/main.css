@@ -399,7 +399,7 @@ template {
       font-size: 16px; } }
 
 .section_white {
-  padding: 30px 15px 0;
+  padding: 30px 15px 45px;
   line-height: 30px; }
   @media all and (min-width: 768px) {
     .section_white {
@@ -409,7 +409,8 @@ template {
   @media all and (min-width: 1200px) {
     .section_white {
       width: 56.1%;
-      margin: auto; } }
+      margin: auto;
+      padding: 60px 0; } }
   .section_white h2 {
     text-transform: capitalize;
     font-size: 24px;
@@ -434,32 +435,11 @@ template {
       .section_white p {
         font-size: 20px;
         width: 100%;
-        padding-top: 30px; } }
+        padding-top: 30px;
+        max-width: 684px; } }
     @media all and (min-width: 1200px) {
       .section_white p {
-        margin: auto; } }
-
-.go_button {
-  width: 76px;
-  height: 45px;
-  border: solid 2px #f26002;
-  font-family: "Roboto", sans-serif;
-  color: #f26002;
-  background-color: #ffffff;
-  margin-bottom: 45px;
-  border-radius: 22px;
-  font-size: 20px; }
-  .go_button:hover {
-    background-color: #f26002;
-    border: 4px solid #8ccbea;
-    transition: color ease 3s, border-color ease 3s;
-    color: #ffffff; }
-  @media all and (min-width: 768px) {
-    .go_button {
-      width: 91px; } }
-  @media all and (min-width: 1200px) {
-    .go_button {
-      width: 160px; } }
+        max-width: 730px; } }
 
 .container_blue {
   display: grid;
@@ -472,11 +452,14 @@ template {
     .container_blue {
       grid-template-columns: repeat(3, 0.5fr);
       grid-template-rows: none; } }
+  @media all and (min-width: 1200px) {
+    .container_blue {
+      padding-top: 60px; } }
   .container_blue h2 {
     font-size: 24px;
     font-family: "Roboto Slab", serif;
     text-transform: capitalize;
-    margin: 0; }
+    margin: auto; }
     @media all and (min-width: 768px) {
       .container_blue h2 {
         font-size: 26px;
@@ -498,7 +481,12 @@ template {
     margin: 0; }
     @media all and (min-width: 768px) {
       .container_blue p {
-        font-size: 20px; } }
+        font-size: 20px;
+        max-width: 210px;
+        margin: 0 auto; } }
+    @media all and (min-width: 1200px) {
+      .container_blue p {
+        max-width: 346px; } }
 
 .first_article,
 .second_article,
@@ -511,31 +499,6 @@ template {
     .second_article,
     .third_article {
       width: 100%; } }
-
-.reasons_button {
-  background-color: #f26002;
-  color: #ffffff;
-  width: 184px;
-  height: 45px;
-  font-family: "Roboto", sans-serif;
-  border-radius: 22px;
-  margin: auto;
-  border: none;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 45px; }
-  .reasons_button:hover {
-    background-color: #ffffff;
-    border: 2px solid #f26002;
-    transition: color ease 3s, border-color ease 3s;
-    color: #f26002; }
-  @media all and (min-width: 768px) {
-    .reasons_button {
-      width: 210px;
-      grid-column: span 3; } }
-  @media all and (min-width: 1200px) {
-    .reasons_button {
-      width: 255px; } }
 
 ul {
   padding: 0px;
@@ -643,6 +606,53 @@ ul {
     .menu {
       margin: 0 30px;
       min-width: 160px; } }
+
+.go_button {
+  width: 76px;
+  height: 45px;
+  border: solid 2px #f26002;
+  font-family: "Roboto", sans-serif;
+  color: #f26002;
+  background-color: #ffffff;
+  border-radius: 22px;
+  font-size: 20px; }
+  .go_button:hover {
+    background-color: #f26002;
+    border: 4px solid #8ccbea;
+    transition: color ease 3s, border-color ease 3s;
+    color: #ffffff; }
+  @media all and (min-width: 768px) {
+    .go_button {
+      width: 91px; } }
+  @media all and (min-width: 1200px) {
+    .go_button {
+      width: 160px; } }
+
+.reasons_button {
+  background-color: #f26002;
+  color: #ffffff;
+  width: 184px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 22px;
+  margin: auto;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 45px; }
+  .reasons_button:hover {
+    background-color: #ffffff;
+    border: 2px solid #f26002;
+    transition: color ease 3s, border-color ease 3s;
+    color: #f26002; }
+  @media all and (min-width: 768px) {
+    .reasons_button {
+      width: 210px;
+      grid-column: span 3;
+      margin-top: 15px; } }
+  @media all and (min-width: 1200px) {
+    .reasons_button {
+      width: 255px; } }
 
 .main__list {
   padding-left: 2rem; }

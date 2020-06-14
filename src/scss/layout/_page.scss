@@ -12,7 +12,7 @@
 }
 
 .section_white {
-  padding: 30px 15px 0;
+  padding: 30px 15px 45px;
   line-height: 30px;
 
   @include tablet {
@@ -23,6 +23,7 @@
   @include desktop {
     width: 56.1%;
     margin: auto;
+    padding: 60px 0;
   }
 
   h2 {
@@ -54,38 +55,12 @@
       font-size: 20px;
       width: 100%;
       padding-top: 30px;
+      max-width: 684px;
     }
 
     @include desktop {
-      margin: auto;
+      max-width: 730px;
     }
-  }
-}
-
-.go_button {
-  width: 76px;
-  height: 45px;
-  border: solid 2px $color-tertiary;
-  font-family: $font-primary;
-  color: $color-tertiary;
-  background-color: $color-primary;
-  margin-bottom: 45px;
-  border-radius: 22px;
-  font-size: 20px;
-
-  &:hover {
-    background-color: $color-tertiary;
-    border: 4px solid $color-subtitle;
-    transition: color ease 3s, border-color ease 3s;
-    color: $color-primary;
-  }
-
-  @include tablet {
-    width: 91px;
-  }
-
-  @include desktop {
-    width: 160px;
   }
 }
 
@@ -102,11 +77,15 @@
     grid-template-rows: none;
   }
 
+  @include desktop {
+    padding-top: 60px;
+  }
+
   h2 {
     font-size: 24px;
     font-family: $font-secondary;
     text-transform: capitalize;
-    margin: 0;
+    margin: auto;
 
     @include tablet {
       font-size: 26px;
@@ -136,6 +115,12 @@
 
     @include tablet {
       font-size: 20px;
+      max-width: 210px;
+      margin: 0 auto;
+    }
+
+    @include desktop {
+      max-width: 346px;
     }
   }
 }
@@ -149,35 +134,5 @@
 
   @include tablet {
     width: 100%;
-  }
-}
-
-.reasons_button {
-  background-color: $color-tertiary;
-  color: $color-primary;
-  width: 184px;
-  height: 45px;
-  font-family: $font-primary;
-  border-radius: 22px;
-  margin: auto;
-  border: none;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 45px;
-
-  &:hover {
-    background-color: $color-primary;
-    border: 2px solid $color-tertiary;
-    transition: color ease 3s, border-color ease 3s;
-    color: $color-tertiary;
-  }
-
-  @include tablet {
-    width: 210px;
-    grid-column: span 3;
-  }
-
-  @include desktop {
-    width: 255px;
   }
 }
