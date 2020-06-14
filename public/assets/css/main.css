@@ -526,22 +526,27 @@ template {
       width: 255px; } }
 
 ul {
-  padding: 0px; }
+  padding: 0px;
+  margin: 0; }
 
 .circle_footer {
   background-color: #ffffff;
   height: 45px;
   width: 45px;
   border-radius: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  top: -25px; }
+  top: 0;
+  left: 50%; }
+  .circle_footer a {
+    position: relative;
+    top: 50%;
+    left: 50%; }
 
 .circle_footer img {
   width: 20px;
   height: 24px;
-  position: relative;
-  top: 10px;
-  left: 12px; }
+  transform: translate(-50%, -50%); }
 
 .footer {
   display: flex;
@@ -553,21 +558,28 @@ ul {
   font-family: "Roboto", sans-serif;
   line-height: 30px;
   position: relative;
-  padding: 45px 15px; }
+  padding: 0px 15px; }
   @media all and (min-width: 768px) {
     .footer {
       flex-direction: row;
       justify-content: space-around;
-      padding: 45px 39px; }
+      align-items: flex-start;
+      padding: 45px 0; }
       .footer .copyright,
       .footer .socialmedia_menu,
       .footer .menu li {
         text-align: left; }
       .footer .socialmedia_menu {
-        align-self: flex-end; } }
+        order: 3; } }
+    @media all and (min-width: 768px) and (min-width: 1200px) {
+      .footer .socialmedia_menu {
+        min-width: 160px; } }
+  @media all and (min-width: 768px) {
+      .footer .menu {
+        order: 2; } }
   @media all and (min-width: 1200px) {
     .footer {
-      padding: 0px 370px; } }
+      justify-content: center; } }
 
 .menu,
 .socialmedia_menu {
@@ -575,14 +587,33 @@ ul {
   text-transform: uppercase;
   text-align: center; }
 
+.menu {
+  margin-top: 60px;
+  margin-bottom: 30px; }
+  @media all and (min-width: 768px) {
+    .menu {
+      margin: 0; } }
+  @media all and (min-width: 1200px) {
+    .menu {
+      margin: 0 30px;
+      min-width: 160px; } }
+
 .copyright {
   text-align: center;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 45px; }
+  .copyright .heart_emoji {
+    color: #f26002; }
   .copyright p {
     margin: 0; }
   @media all and (min-width: 768px) {
     .copyright {
-      margin: 0px; } }
+      margin: 0px;
+      order: 1; } }
+  @media all and (min-width: 1200px) {
+    .copyright {
+      min-width: 160px; } }
 
 .main__list {
   padding-left: 2rem; }
