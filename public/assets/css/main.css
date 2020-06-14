@@ -387,6 +387,17 @@ template {
     height: 12px;
     margin-top: 10px; }
 
+.section_subtitle {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #8ccbea;
+  width: 90px;
+  height: 30px; }
+  @media all and (min-width: 1200px) {
+    .section_subtitle {
+      font-size: 16px; } }
+
 .section_white {
   padding: 30px 15px 0;
   line-height: 30px; }
@@ -399,47 +410,34 @@ template {
     .section_white {
       width: 56.1%;
       margin: auto; } }
-
-.section_subtitle {
-  text-transform: capitalize;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #8ccbea;
-  width: 90px;
-  height: 30px; }
-  @media all and (min-width: 1200px) {
-    .section_subtitle {
-      font-size: 16px; } }
-
-.section_white h2 {
-  text-transform: capitalize;
-  font-size: 24px;
-  font-family: "Roboto Slab", serif;
-  margin: 0;
-  width: 85%; }
-  @media all and (min-width: 768px) {
-    .section_white h2 {
-      font-size: 26px; } }
-  @media all and (min-width: 1200px) {
-    .section_white h2 {
-      font-size: 32px; } }
-
-.section_white p {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: #4a4a4a;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  margin: 0; }
-  @media all and (min-width: 768px) {
-    .section_white p {
-      font-size: 20px;
-      width: 100%;
-      padding-top: 30px; } }
-  @media all and (min-width: 1200px) {
-    .section_white p {
-      margin: auto; } }
+  .section_white h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    width: 85%; }
+    @media all and (min-width: 768px) {
+      .section_white h2 {
+        font-size: 26px; } }
+    @media all and (min-width: 1200px) {
+      .section_white h2 {
+        font-size: 32px; } }
+  .section_white p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0; }
+    @media all and (min-width: 768px) {
+      .section_white p {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 30px; } }
+    @media all and (min-width: 1200px) {
+      .section_white p {
+        margin: auto; } }
 
 .go_button {
   width: 76px;
@@ -474,36 +472,33 @@ template {
     .container_blue {
       grid-template-columns: repeat(3, 0.5fr);
       grid-template-rows: none; } }
-
-.container_blue h2 {
-  font-size: 24px;
-  font-family: "Roboto Slab", serif;
-  text-transform: capitalize;
-  margin: 0; }
-  @media all and (min-width: 768px) {
-    .container_blue h2 {
-      font-size: 26px;
-      grid-column: span 3; } }
-  @media all and (min-width: 1200px) {
-    .container_blue h2 {
-      font-size: 32px; } }
-
-.container_blue h3 {
-  font-size: 18px;
-  font-family: "Roboto Slab", serif;
-  margin: 0; }
-  @media all and (min-width: 768px) {
-    .container_blue h3 {
-      font-size: 24px;
-      padding-bottom: 14px; } }
-
-.container_blue p {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  margin: 0; }
-  @media all and (min-width: 768px) {
-    .container_blue p {
-      font-size: 20px; } }
+  .container_blue h2 {
+    font-size: 24px;
+    font-family: "Roboto Slab", serif;
+    text-transform: capitalize;
+    margin: 0; }
+    @media all and (min-width: 768px) {
+      .container_blue h2 {
+        font-size: 26px;
+        grid-column: span 3; } }
+    @media all and (min-width: 1200px) {
+      .container_blue h2 {
+        font-size: 32px; } }
+  .container_blue h3 {
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    margin: 0; }
+    @media all and (min-width: 768px) {
+      .container_blue h3 {
+        font-size: 24px;
+        padding-bottom: 14px; } }
+  .container_blue p {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin: 0; }
+    @media all and (min-width: 768px) {
+      .container_blue p {
+        font-size: 20px; } }
 
 .first_article,
 .second_article,

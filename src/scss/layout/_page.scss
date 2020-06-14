@@ -1,3 +1,16 @@
+.section_subtitle {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: $font-primary;
+  color: $color-subtitle;
+  width: 90px;
+  height: 30px;
+
+  @include desktop {
+    font-size: 16px;
+  }
+}
+
 .section_white {
   padding: 30px 15px 0;
   line-height: 30px;
@@ -11,53 +24,41 @@
     width: 56.1%;
     margin: auto;
   }
-}
 
-.section_subtitle {
-  text-transform: capitalize;
-  font-size: 14px;
-  font-family: $font-primary;
-  color: $color-subtitle;
-  width: 90px;
-  height: 30px;
+  h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: $font-secondary;
+    margin: 0;
+    width: 85%;
 
-  @include desktop {
-    font-size: 16px;
-  }
-}
-.section_white h2 {
-  text-transform: capitalize;
-  font-size: 24px;
-  font-family: $font-secondary;
-  margin: 0;
-  width: 85%;
+    @include tablet {
+      font-size: 26px;
+    }
 
-  @include tablet {
-    font-size: 26px;
+    @include desktop {
+      font-size: 32px;
+    }
   }
 
-  @include desktop {
-    font-size: 32px;
-  }
-}
-
-.section_white p {
-  font-size: 18px;
-  font-family: $font-primary;
-  color: $color-paragraph;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  margin: 0;
-
-  @include tablet {
-    font-size: 20px;
+  p {
+    font-size: 18px;
+    font-family: $font-primary;
+    color: $color-paragraph;
     width: 100%;
-    padding-top: 30px;
-  }
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0;
 
-  @include desktop {
-    margin: auto;
+    @include tablet {
+      font-size: 20px;
+      width: 100%;
+      padding-top: 30px;
+    }
+
+    @include desktop {
+      margin: auto;
+    }
   }
 }
 
@@ -100,42 +101,42 @@
     grid-template-columns: repeat(3, 0.5fr);
     grid-template-rows: none;
   }
-}
 
-.container_blue h2 {
-  font-size: 24px;
-  font-family: $font-secondary;
-  text-transform: capitalize;
-  margin: 0;
-
-  @include tablet {
-    font-size: 26px;
-    grid-column: span 3;
-  }
-
-  @include desktop {
-    font-size: 32px;
-  }
-}
-
-.container_blue h3 {
-  font-size: 18px;
-  font-family: $font-secondary;
-  margin: 0;
-
-  @include tablet {
+  h2 {
     font-size: 24px;
-    padding-bottom: 14px;
+    font-family: $font-secondary;
+    text-transform: capitalize;
+    margin: 0;
+
+    @include tablet {
+      font-size: 26px;
+      grid-column: span 3;
+    }
+
+    @include desktop {
+      font-size: 32px;
+    }
   }
-}
 
-.container_blue p {
-  font-size: 18px;
-  font-family: $font-primary;
-  margin: 0;
+  h3 {
+    font-size: 18px;
+    font-family: $font-secondary;
+    margin: 0;
 
-  @include tablet {
-    font-size: 20px;
+    @include tablet {
+      font-size: 24px;
+      padding-bottom: 14px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    font-family: $font-primary;
+    margin: 0;
+
+    @include tablet {
+      font-size: 20px;
+    }
   }
 }
 
