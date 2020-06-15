@@ -1,5 +1,7 @@
-Enunciado
+Módulo 1: EJERCICIO DE EVALUACIÓN FINAL
 
+Enunciado
+-----------------------------------------------------------------------------------------------------------
 El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Hay que resolver varios
 puntos:
 
@@ -9,7 +11,7 @@ Usar media queries.
 Resolver algunas interacciones usando transiciones.
 
 Maquetación
-
+------------------------------------------------------------------------------------------------------------
 En primer lugar debéis realizar la maquetación sobre un diseño dado:
 
 1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la
