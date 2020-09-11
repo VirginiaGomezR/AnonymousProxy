@@ -1,4 +1,4 @@
-Módulo 1: Ejercicio de evaluación final de Adalab
+Módulo 1 de Adalab: Ejercicio de evaluación final
 -------------------------------------------
 
 Enunciado
